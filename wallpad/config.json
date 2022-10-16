@@ -63,7 +63,6 @@
     },    
     "mqtt": {
       "broker": "str",
-      "port": "str",
       "username": "str",
       "password": "str",
       "receiveDelay": "int"
