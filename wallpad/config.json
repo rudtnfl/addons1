@@ -44,7 +44,6 @@
     }
   },
   "schema": {
-    "model":"list(commax|samsung|daelim|hyundai|bestin)",
     "sendDelay": "int",
     "energy_config":{
       "type": "list(serial|socket)",
