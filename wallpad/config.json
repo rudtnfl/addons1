@@ -13,7 +13,7 @@
   "map": [
     "share:rw"
   ],
-  "url": "https://github.com/rudtnfl/addons1/wallpad",
+  "url": "https://github.com/rudtnfl/addons1",
   "startup": "application",
   "boot": "auto",
   "uart": true,
@@ -36,7 +36,8 @@
       "socket_port": 8899
     },
     "mqtt": {
-      "broker": "mqtt://core-mosquitto:1883",
+      "broker": "core-mosquitto",
+      "port": 1883,
       "username": "homeassistant",
       "password": "ohraeJ5GaiMuuchii4ukohniej0ia4aethae5exae3xeefaeghu9AhtuChaepeeh",
       "receiveDelay": 10000
@@ -62,6 +63,7 @@
     },    
     "mqtt": {
       "broker": "str",
+      "port": "str",
       "username": "str",
       "password": "str",
       "receiveDelay": "int"
